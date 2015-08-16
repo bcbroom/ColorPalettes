@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		DC7C58B11B8140F800C119FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7C58B01B8140F800C119FB /* main.m */; };
 		DC7C58B41B8140F800C119FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7C58B31B8140F800C119FB /* AppDelegate.m */; };
-		DC7C58B71B8140F800C119FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7C58B61B8140F800C119FB /* ViewController.m */; };
 		DC7C58BA1B8140F800C119FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7C58B81B8140F800C119FB /* Main.storyboard */; };
 		DC7C58BC1B8140F800C119FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7C58BB1B8140F800C119FB /* Images.xcassets */; };
 		DC7C58BF1B8140F800C119FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7C58BD1B8140F800C119FB /* LaunchScreen.xib */; };
@@ -32,8 +31,6 @@
 		DC7C58B01B8140F800C119FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DC7C58B21B8140F800C119FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DC7C58B31B8140F800C119FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DC7C58B51B8140F800C119FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DC7C58B61B8140F800C119FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DC7C58B91B8140F800C119FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC7C58BB1B8140F800C119FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DC7C58BE1B8140F800C119FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,8 +80,6 @@
 			children = (
 				DC7C58B21B8140F800C119FB /* AppDelegate.h */,
 				DC7C58B31B8140F800C119FB /* AppDelegate.m */,
-				DC7C58B51B8140F800C119FB /* ViewController.h */,
-				DC7C58B61B8140F800C119FB /* ViewController.m */,
 				DC7C58B81B8140F800C119FB /* Main.storyboard */,
 				DC7C58BB1B8140F800C119FB /* Images.xcassets */,
 				DC7C58BD1B8140F800C119FB /* LaunchScreen.xib */,
@@ -219,7 +214,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC7C58B71B8140F800C119FB /* ViewController.m in Sources */,
 				DC7C58B41B8140F800C119FB /* AppDelegate.m in Sources */,
 				DC7C58B11B8140F800C119FB /* main.m in Sources */,
 			);
