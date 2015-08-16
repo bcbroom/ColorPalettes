@@ -8,6 +8,7 @@
 
 #import "PaletteTableViewController.h"
 #import "PaletteList.h"
+#import "PaletteDetailViewController.h"
 
 @interface PaletteTableViewController ()
 
@@ -45,6 +46,14 @@
   cell.textLabel.text = palette.title;
   
   return cell;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+  if ([segue.identifier isEqualToString:@"ShowDetailSegue"]) {
+    PaletteDetailViewController *toVC = segue.destinationViewController;
+    toVC.selectedPalette = self.paletteList.palettes[ self.tableView.indexPathForSelectedRow.row ];
+    toVC.title = toVC.selectedPalette.title;
+  }
 }
 
 @end

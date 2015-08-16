@@ -27,7 +27,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="7ux-oT-pAA" kind="show" id="QXr-Ha-CII"/>
+                                    <segue destination="7ux-oT-pAA" kind="show" identifier="ShowDetailSegue" id="QXr-Ha-CII"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -43,7 +43,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="poH-TJ-sJE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1256" y="418"/>
+            <point key="canvasLocation" x="1243" y="418"/>
         </scene>
         <!--Palette Detail View Controller-->
         <scene sceneID="OcV-uh-czd">

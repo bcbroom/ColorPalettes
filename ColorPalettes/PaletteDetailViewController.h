@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Palette.h"
 
 @interface PaletteDetailViewController : UIViewController
+
+@property (strong, nonatomic) Palette *selectedPalette;
 
 @end
