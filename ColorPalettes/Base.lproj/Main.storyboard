@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--Palette Table View Controller-->
+        <!--Color Palettes-->
         <scene sceneID="lLA-gt-MYR">
             <objects>
                 <tableViewController id="LbJ-Hs-aHZ" customClass="PaletteTableViewController" sceneMemberID="viewController">
@@ -13,7 +13,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PaletteCell" textLabel="h5o-h6-FqP" style="IBUITableViewCellStyleDefault" id="boM-zD-Z9E">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="PaletteCell" textLabel="h5o-h6-FqP" style="IBUITableViewCellStyleDefault" id="boM-zD-Z9E">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="boM-zD-Z9E" id="6HS-iZ-URe">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -36,7 +36,9 @@
                             <outlet property="delegate" destination="LbJ-Hs-aHZ" id="4v6-NY-N7L"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="9uP-vp-8N9"/>
+                    <navigationItem key="navigationItem" title="Color Palettes" id="9uP-vp-8N9">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="8TH-1V-dCE"/>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="poH-TJ-sJE" userLabel="First Responder" sceneMemberID="firstResponder"/>
