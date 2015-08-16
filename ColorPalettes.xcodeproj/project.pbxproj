@@ -13,6 +13,8 @@
 		DC7C58BC1B8140F800C119FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7C58BB1B8140F800C119FB /* Images.xcassets */; };
 		DC7C58BF1B8140F800C119FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7C58BD1B8140F800C119FB /* LaunchScreen.xib */; };
 		DC7C58CB1B8140F800C119FB /* ColorPalettesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7C58CA1B8140F800C119FB /* ColorPalettesTests.m */; };
+		DC7C58D61B8141E600C119FB /* PaletteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7C58D51B8141E600C119FB /* PaletteTableViewController.m */; };
+		DC7C58D91B8141F600C119FB /* PaletteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7C58D81B8141F600C119FB /* PaletteDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,10 @@
 		DC7C58C41B8140F800C119FB /* ColorPalettesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorPalettesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7C58C91B8140F800C119FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC7C58CA1B8140F800C119FB /* ColorPalettesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorPalettesTests.m; sourceTree = "<group>"; };
+		DC7C58D41B8141E600C119FB /* PaletteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteTableViewController.h; sourceTree = "<group>"; };
+		DC7C58D51B8141E600C119FB /* PaletteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteTableViewController.m; sourceTree = "<group>"; };
+		DC7C58D71B8141F600C119FB /* PaletteDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteDetailViewController.h; sourceTree = "<group>"; };
+		DC7C58D81B8141F600C119FB /* PaletteDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,10 @@
 			children = (
 				DC7C58B21B8140F800C119FB /* AppDelegate.h */,
 				DC7C58B31B8140F800C119FB /* AppDelegate.m */,
+				DC7C58D41B8141E600C119FB /* PaletteTableViewController.h */,
+				DC7C58D51B8141E600C119FB /* PaletteTableViewController.m */,
+				DC7C58D71B8141F600C119FB /* PaletteDetailViewController.h */,
+				DC7C58D81B8141F600C119FB /* PaletteDetailViewController.m */,
 				DC7C58B81B8140F800C119FB /* Main.storyboard */,
 				DC7C58BB1B8140F800C119FB /* Images.xcassets */,
 				DC7C58BD1B8140F800C119FB /* LaunchScreen.xib */,
@@ -215,6 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC7C58B41B8140F800C119FB /* AppDelegate.m in Sources */,
+				DC7C58D91B8141F600C119FB /* PaletteDetailViewController.m in Sources */,
+				DC7C58D61B8141E600C119FB /* PaletteTableViewController.m in Sources */,
 				DC7C58B11B8140F800C119FB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
