@@ -21,11 +21,16 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   
+  self.refreshControl = [UIRefreshControl new];
+  [self.refreshControl addTarget:self action:@selector(dataRefreshed) forControlEvents:UIControlEventValueChanged];
+  [self.refreshControl beginRefreshing];
+  
   [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dataRefreshed) name:@"PaletteListDidUpdate" object:nil];
   _paletteList = [PaletteList new];
 }
 
 - (void)dataRefreshed {
+  [self.refreshControl endRefreshing];
   [self.tableView reloadData];
 }
 
